@@ -1,0 +1,21 @@
+body {
+    color: #FFA07A;
+    background-color: #FFEFD5;
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Amatic SC', cursive;
+    text-align: justify;
+}
+
+h1 {
+    color: #FF8C00;
+    background-color: #FFEFD5;
+    font-size: 48px;
+}
+
+a{
+    color:#FF8C00;
+}
+
+.pruh {background-color: #FFFFE0;
+}
