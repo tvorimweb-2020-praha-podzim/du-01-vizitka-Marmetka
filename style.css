@@ -3,8 +3,24 @@ body {
     background-color: #FFEFD5;
     font-size: 32px;
     line-height: 1;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Slab', serif;
     text-align: justify;
+}
+
+section{ 
+    overflow: auto;
+    padding: 20px 5%;
+}
+
+.omne {
+    background-color: #FFE4B5;
+}
+
+.hlavicka {
+    text-align: center;
+    background-color: #FFFACD
+    max-width: 30cm;
+    border-bottom: 3px solid #bb2929;
 }
 
 h1 {
@@ -14,8 +30,44 @@ h1 {
 }
 
 a{
-    color:#FF8C00;
+    background-color: #FFE4B5;
+}
+
+img {
+    display: left;
+    width: 3rem auto;
+    height: 3rem auto;
+    margin: 0 30px 30px 0;
+    border-style: solid;
+    border-color: #FF8C00;
+    border-width: 2px;
+    border-radius: 50%;
+    float: left;
 }
 
 .pruh {background-color: #FFFFE0;
+    height: 20cm;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #FFEFD5;
+    align-items: center;
+}
+
+.menu a {
+    display: inline-block;
+    color: green;
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a :hover,
+.menu a :focus {
+    background-color: brown;
+    height: 30%s;
 }
